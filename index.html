@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>online cloth sale one page website</title>
+	<!-- animation effect added in <h1> and <p> tag css code cdn -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<section id="home">
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">
+						<img src="images/logo.png">
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#"><img src="images/cart.png"></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="clear"></div>
+		</header>
+		<div class="container bg1">
+			<h1 data-aos="zoom-in">Our clothing , your comfort</h1>
+			<p data-aos="fade-up" data-aos-duration="3000">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+				sed do eiusmod tempor incididunt ut labore et<br>
+				dolor emagna aliqua.</p>
+			<div class="arrow">
+				<img src="images/arrow.png">
+			</div>
+		</div>
+	</section>
+	<!-- using hosted google libraries jqueiry cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- using javascript codes -->
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$("header").addClass("red")
+			}
+			else {
+				$("header").removeClass("red")
+			}
+		})
+	</script>
+	<!-- animation effect added in <h1> and <p> tag js code cdn -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<section></section>
+</body>
+
+</html>
