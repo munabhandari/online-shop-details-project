@@ -48,7 +48,7 @@ nav ul li {
 	float: left;
 }
 
-nav ul li a {
+#home nav ul li a {
 	text-decoration: none;
 	color: #fff;
 	padding: 15px;
@@ -225,22 +225,35 @@ nav ul li a {
 	height: 70px;
 }
 .ecommerce p{
-	padding: 20px;
+	padding: 20px 10%;
 }
 
 .bottom{
 	background: #424242;
 	height: 351px;
+	color: white;
+	padding: 100px 10%;
+	
 }
-.bottom trekking {
+.bottom .trekking {
 	float: left;
+
 }
 .bottom .treeking h2 , .bottom .treeking p{
 	color: #fff;
 }
-
+.bottom nav ul li:first-child{
+	border: none;
+}
+.bottom nav{
+	padding-top: 50px;
+}
 .bottom nav ul li {
 	border-left: 1px solid #fff;
 	color: #fff;
-	padding-right: 5px;
+	padding: 0px 5px;
+}
+.bottom a{
+	color: white;
+	text-decoration: none;
 }
